@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+}
+img.logo-fb {
+    width: 150px;
+    height: 50px;
+}
+section.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #e9ebee;
+}
+div.input-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+input.email, input.password {
+    width: 188px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 8px 12px 10px 12px;
+    font-size: 15px;
+    border: 1px solid #8a8d91;
+    outline-color: #1876f2;
+    margin: 5px;
+}
+input.password {
+    padding-right: 40px;
+}
+div.eye {
+    display:none;
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 360px;
+    
+ 
+}
+img.img-eye {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+button.btn-login {
+    width: 70px;
+    height: 40px;
+    color:#fff;
+    background-color: #1b74e4;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+a.forgot-account {
+    text-decoration: none;
+    font-size: 15px;
+    color: #216dfb;
+}
+a.forgot-account:hover {
+    text-decoration: underline;
+}
+div.find-account {
+    border-radius: 6px;
+    width: 500px;
+    height: 280px;
+    background-color: #fff;
+}
+h2 {
+    padding: 18px 16px 18px 16px;
+}
+div.line {
+    height: 0;
+    width:100%;
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 15px;
+}
+p {
+    height: 40px;
+    width: 464px;
+    display: block;
+    text-align: left;
+    font-size: 17px;
+    color: #1c1e21;
+    margin-left: 16px;
+}
+input.email-cel {
+    width: 464px;
+    height: 52px;
+    padding: 18px 0 16px 16px;
+    border-radius: 6px;
+    border: 1px solid #8a8d91;
+    font-size: 17px;
+    margin: 16px;
+    outline:none;
+}
+div.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+button.cancel {
+    height: 36px;
+    width: 100px;
+    background-color: #e4e6eb;
+    color: #484e56;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+button.search {
+    height: 36px;
+    width: 110px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+button.cancel, button.search {
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+}

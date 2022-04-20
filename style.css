@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+}
+body {
+    background-color: #f0f2f5;
+}
+section.container {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;   
+}    
+img.logo-fb {
+    width: 301px;
+    height:106px;
+    margin: -28;
+    margin-right: 250px;
+}
+div.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    height: 100vh;
+   
+    
+}
+h2.text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+    font-weight: normal;
+    padding: 0 0 20px;
+    width: 500px;
+
+
+}
+div.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    height: 100vh;
+    margin-top: 30px;
+
+   
+}
+div.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 10px 24px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+input {
+    height: 50px;
+    width: 390px;
+    font-size: 17px;
+    line-height: 16px;
+    color: #1d2129;
+    padding: 14px 16px 14px 16px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline-color: #5299f5;
+    
+}
+input.password {
+    padding-right: 60px;
+}
+button.btn-fisrt {
+    height: 50px;
+    width: 390px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1672e9;
+    line-height: 48px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+
+}
+a.forgot-password {
+    text-decoration: none;
+    padding: 20px; 
+    color: #1877f2;
+
+}
+a.forgot-password:hover {
+    text-decoration: underline;
+}
+div.line {
+    height: 0;
+    width:364px;
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 20px;
+}
+button.btn-second {
+    display: block;
+    text-align: center;
+    height: 50px;
+    width: 180px;
+    color: #fff;
+    background-color: #42b72a;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10x;
+    cursor: pointer;
+}
+div.creat {
+    display: block;
+    text-align: center;
+    margin-left: 40px;
+    width: 370x;
+    height: 48px;
+    margin-top: 25px;
+    
+}
+a.creat-page {
+    font-size:14px;
+    text-decoration: none;
+}
+a span{
+    font-weight: bold;
+    color: #1c1e21;
+}
+a span:hover {
+    text-decoration: underline;
+}
+div.eye {
+    display: none;
+    position: absolute;
+    margin-left: 310px;
+    margin-bottom: 130px;
+  
+}
+img.img-eye {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.show {
+    display: none;
+}
+
